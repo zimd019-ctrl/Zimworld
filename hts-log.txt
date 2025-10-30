@@ -1,0 +1,21 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 29 Oct 2025 15:27:46 at https://teams.live.com/free +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://teams.live.com/free -O1 "C:\Users\Admin\Desktop\clone 3" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:27:55	Error: 	"Bad Request" (400) at link https://teams.live.com/POST (from https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/56685-9a5e83c20975403c.js)
+15:27:55	Warning: 	Found for https://teams.live.com/
+15:27:55	Warning: 	File has moved from https://teams.live.com/ to https://teams.live.com/v2?clientexperience=t2
+15:27:56	Error: 	"Bad Request" (400) at link https://teams.live.com/;path=/ (from https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/56685-9a5e83c20975403c.js)
+15:27:56	Error: 	"Bad Request" (400) at link https://teams.live.com/Version/ (from https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/39661-6177144e346d05e8.js)
+15:27:56	Error: 	"Bad Request" (400) at link https://teams.live.com/document.referrer (from https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/67133-3768a85a33a3cae5.js)
+15:27:56	Error: 	"Bad Request" (400) at link https://teams.live.com/`${r}/oauth2/v2.0/authorize` (from https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/unauth-2a1017e331c18f4b.js)
+15:27:56	Error: 	"Bad Request" (400) at link https://teams.live.com/e (from https://statics.teams.cdn.live.net/teams-modular-packages/hashed-assets/unauth-2a1017e331c18f4b.js)
+15:27:57	Warning: 	Found for https://teams.live.com/v2/?clientexperience=t2
+15:27:57	Warning: 	File has moved from https://teams.live.com/v2/?clientexperience=t2 to /v2/unsupported-browser#env=life&browserOverrides={"firefox":{"isSupported":true,"minVersion":"97.0"},"safari":{"isSupported":true,"minVersion":"16.0"}}
+
+HTTrack Website Copier/3.49-2 mirror complete in 11 seconds : 20 links scanned, 11 files written (928402 bytes overall) [576711 bytes received at 52428 bytes/sec], 875848 bytes transferred using HTTP compression in 11 files, ratio 57%, 1.4 requests per connection
+(6 errors, 4 warnings, 0 messages)
